@@ -1,0 +1,18 @@
+{
+    "core": {
+        "热泵工作原理": {
+            "title": "热泵工作原理",
+            "content": "...",
+            "prerequisites": [],
+            "related": ["COP系数解密"]
+        }
+    },
+    "optimization": {
+        "温度设定策略": {
+            "title": "温度设定策略",
+            "content": "...",
+            "prerequisites": ["热泵工作原理"],
+            "related": ["季节优化技巧"]
+        }
+    }
+}

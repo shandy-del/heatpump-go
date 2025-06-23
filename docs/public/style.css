@@ -1,0 +1,65 @@
+/* 自定义动画效果 */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+.emergency-card {
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite;
+}
+
+.module-card {
+    transition: transform 0.3s ease;
+    border-top: 3px solid;
+}
+
+.module-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.module-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+#knowledgeSearch::placeholder {
+    font-style: italic;
+}
+
+.knowledge-graph {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.graph-node {
+    background: white;
+    border: 2px solid #3b82f6;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.graph-node:hover {
+    transform: scale(1.05);
+    background-color: #dbeafe;
+}
+
+.graph-link {
+    position: absolute;
+    background: #93c5fd;
+    height: 2px;
+    transform-origin: left;
+}
