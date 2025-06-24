@@ -51,19 +51,16 @@ resources from: https://www.getaheatpump.org.uk/types-of-heat-pumps#air-source-h
 | Shared ground source heat pump | Communal ground loop, individual domestic heat pump unit and hot water cylinder in each home | Ground loop buried in communal space (road/green areas); indoor cylinder ~1.5–2 m, domestic unit similar to other GSHP | Cost per household typically lower due to shared infrastructure |
 
 #### 1.5 UK Climate Adaptation
-| Region | Winter Considerations |
-|-|-|
-| Scotland | Specify cold-climate models (-25°C operation) |
-| England | Standard units + antifreeze solution |
-| Wales | Focus on humidity control (high moisture may cause ↓COP) |
 resources from:<br>
 Energy Saving Trust (2025): Heat Pump Performance Field Study<br>
 Carbon Trust (2024): Heat Pump Optimization Guide<br>
 IEA HPT Annex 58: Cold Climate Heat Pump Systems<br>
 Heat Geek (2025): UK User Behaviour Analysis<br>
-
-
-
+| Region | Winter Considerations |
+|-|-|
+| Scotland | Specify cold-climate models (-25°C operation) |
+| England | Standard units + antifreeze solution |
+| Wales | Focus on humidity control (high moisture may cause ↓COP) |
 
 ### 2. What Is a Learning Journey?
 - A structured, phased approach to guiding users through knowledge
