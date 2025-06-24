@@ -66,7 +66,8 @@ Expansion Valve->>Evaporator: Cycle repeats
 ##### 2. Differentiated User Journey Architecture
 ```mermaid 
 flowchart TD
-A1["Novice: What is a heat pump?"] --> A2["5-min Essential Primer"] 
-B1["Active User: How to set up?"] --> B2["Personalized Settings Advisor"] 
-C1["Advanced User: Maximize savings?"] --> C2["Live COP Tracking + AI Optimization"]
+A1["Novice: What is a heat pump?"] --> A2["Essentials: 5-min Primer"] 
+B1["Active User: How to set up?--Optimize settings"] --> B2["Optimization: Personalized Settings Advisor"] 
+C1["Advanced User: Maximize savings"] --> C2["Efficiency: COP Tracking + Optimization advice"]
+C1["Advanced User: Diagnose issues"] --> C2["Troubleshooting: Symptom → Solution Engine"]
 ```
