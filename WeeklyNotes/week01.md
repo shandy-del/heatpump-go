@@ -22,8 +22,17 @@ Compressor->>Condenser: Releases heat indoors
 Condenser->>Expansion Valve: Pressure drop (temp ↓)
 Expansion Valve->>Evaporator: Cycle repeats
 ```
+##### Key Components
+| Component        | Function                             | Homeowner Focus                                   |
+|------------------|--------------------------------------|---------------------------------------------------|
+| Evaporator       | Extracts heat from outdoor air       | Keep clear of debris/snow                         |
+| Compressor       | Increases refrigerant pressure/temp  | Main electricity consumer (70% of usage)          |
+| Condenser        | Transfers heat to home               | Set water temp ≤50°C for efficiency               |
+| Expansion Valve  | Regulates refrigerant flow           | Professional maintenance required                 |
 
-#### 1.2 Installation cost
+
+#### 1.3 Efficiency Metrics: Understanding COP
+
 
 
 
@@ -42,3 +51,26 @@ Expansion Valve->>Evaporator: Cycle repeats
 3. Daily Operation Handbook: </br>Practical usage, safety, maintenance etc. tips
 4. Self-Diagnosis Center: </br>Quick guides for troubleshooting common problems
 5. UK Resources Hub: </br>Localized support including subsidies, installers, climate guidance, etc.
+
+### 4. Questions (may have been solved)
+#### 4.1 How to distinguish my websites like https://www.getaheatpump.org.uk/
+
+##### 1. Core Functional Distinction
+| Dimension | GetAHeatPump.org.uk etc. | HeatPumpGo|
+|-|-|-|
+| Primary Goal | Drive heat pump installations | Optimize existing heat pump usage--Lifetime cost minimization |
+| User Journey Stage | Pre-installation research | Post-installation operation |
+| Key Action | Find installers/get quotes | Solve problems/improve efficiency |
+| Success Metric | Installation conversions | Energy savings (kWh/£) |
+
+##### 2. Differentiated User Journey Architecture
+```mermaid
+journey
+    title User Progression Pathway
+    section Foundational Stage
+      Novice： "What is a heat pump?" --> Foundational Literacy： "5-min Essential Primer"
+    section Optimization Stage
+      Active User： "How to set up?" --> Efficiency Engine： "Personalized Settings Advisor"
+    section Mastery Stage
+      Advanced User： "Maximize savings?" --> Cost Convergence System： "Live COP Tracking + AI Optimization"
+```
