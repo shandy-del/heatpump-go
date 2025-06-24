@@ -97,7 +97,8 @@ Each module includes a "Learn/Explore More" button.
 | Primary Goal | Drive heat pump installations | Optimize existing heat pump usage--Lifetime cost minimization |
 | User Journey Stage | Pre-installation research | Post-installation operation |
 | Key Action | Find installers/get quotes | Solve problems/improve efficiency |
-| Success Metric | Installation conversions | Energy savings (kWh/£) |
+| Success Metric | Installation conversions | Energy savings (kWh/£) or £38 saved this month |
+| Optimization Goal | Generic tips | Asymptotic cost convergence | 
 
 ##### 2. Differentiated User Journey Architecture
 ```mermaid 
@@ -112,3 +113,8 @@ style B1 fill:#DCFCE7,stroke:#22C55E
 style C1 fill:#DBEAFE,stroke:#3B82F6
 style D1 fill:#FCE7F3,stroke:#EC4899
 ```
+
+##### 3. Efficiency-Centric Design Framework
+1. Curated Foundational Knowledge
+- Teach only efficiency-impacting concepts
+- Omit irrelevant technical details (e.g., refrigerant formulas)
