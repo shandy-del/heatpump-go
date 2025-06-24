@@ -32,6 +32,24 @@ Expansion Valve->>Evaporator: Cycle repeats
 
 
 #### 1.3 Efficiency Metrics: Understanding COP
+<b>COP: Coefficient of Performance</b>
+- COP Formula: Heat Output (kWh) / Electricity Input (kWh)
+- Practical meaning: How many heat units you get per electricity unit
+- UK Performance Data
+```mermaid
+barChart
+  title COP at Different Temperatures
+  x-axis Temperature (°C)
+  y-axis COP
+  series Summer
+      - 20°C : 4.2
+  series Spring/Autumn
+      - 10°C : 3.1
+  series Winter
+      - 0°C : 2.3
+  series Extreme Cold
+      - -5°C : 1.8
+```
 
 
 
