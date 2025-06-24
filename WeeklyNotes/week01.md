@@ -35,21 +35,32 @@ Expansion Valve->>Evaporator: Cycle repeats
 <b>COP: Coefficient of Performance</b>
 - COP Formula: Heat Output (kWh) / Electricity Input (kWh)
 - Practical meaning: How many heat units you get per electricity unit
-- UK Performance Data
-```mermaid
-barChart
-  title COP at Different Temperatures
-  x-axis Temperature (°C)
-  y-axis COP
-  series Summer
-      - 20°C : 4.2
-  series Spring/Autumn
-      - 10°C : 3.1
-  series Winter
-      - 0°C : 2.3
-  series Extreme Cold
-      - -5°C : 1.8
-```
+- Efficiency Boosters:<br>
+1. ↓1°C water temp → ↑2-3% COP (More precise, math-proven references may be needed)</br>
+2. Continuous operation > start-stop cycling (15-20% more efficient)</br>
+3. Keeping filters clean helps maintain peak system performance<br>
+
+#### 1.4 UK-Specific Heat Pump Types
+resources from: https://www.getaheatpump.org.uk/types-of-heat-pumps#air-source-heat-pump<br>
+| Type | Components | Placement and size | Cost (approx.) |
+|-|-|-|-|
+| Air source heat pump | Outdoor unit, heat exchanger, hot water cylinder/heat battery | Outdoor unit ~1–1.5 m high, 0.5–1 m wide/deep; indoor unit ~1.5–2 m tall; ≥1 m from property boundary | £9,500–£15,000 (before £7,500 grant) |
+| Ground source heat pump (borehole) | Borehole pipework, heat exchanger, hot water cylinder/heat battery | Multi boreholes (~20 cm wide, 75–200 m deep), indoor exchanger and cylinder similar size to ASHP units | ~£21,000 average |
+| Ground source heat pump (ground loop) | Buried pipework, heat exchanger, hot water cylinder/heat battery | Trench 1–1.5 m deep, 100–200 m long; ~600 m² land needed; indoor unit similar to ASHP zone equipment | Slightly less than borehole; shared infrastructure reduces cost |
+| Air-to-air heat pump | Outdoor heat exchanger, indoor unit (fan-based, wall/floor/duct) | Outdoor ~1–1.5 m; indoor mounted on wall/floor/ceiling or via ducts; no hot water cylinder | £2,400–£8,800; not eligible for grants |
+| Shared ground source heat pump | Communal ground loop, individual domestic heat pump unit and hot water cylinder in each home | Ground loop buried in communal space (road/green areas); indoor cylinder ~1.5–2 m, domestic unit similar to other GSHP | Cost per household typically lower due to shared infrastructure |
+
+#### 1.5 UK Climate Adaptation
+| Region | Winter Considerations |
+|-|-|
+| Scotland | Specify cold-climate models (-25°C operation) |
+| England | Standard units + antifreeze solution |
+| Wales | Focus on humidity control (high moisture may cause ↓COP) |
+resources from:<br>
+Energy Saving Trust (2025): Heat Pump Performance Field Study<br>
+Carbon Trust (2024): Heat Pump Optimization Guide<br>
+IEA HPT Annex 58: Cold Climate Heat Pump Systems<br>
+Heat Geek (2025): UK User Behaviour Analysis<br>
 
 
 
