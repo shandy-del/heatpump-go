@@ -118,3 +118,6 @@ style D1 fill:#FCE7F3,stroke:#EC4899
 1. Curated Foundational Knowledge
 - Teach only efficiency-impacting concepts
 - Omit irrelevant technical details (e.g., refrigerant formulas)
+2. Every page displays:
+"ROI of this module: Learn X mins → Save £Y lifetime"
+Or track electricity fees per month
