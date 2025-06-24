@@ -64,13 +64,4 @@ Expansion Valve->>Evaporator: Cycle repeats
 | Success Metric | Installation conversions | Energy savings (kWh/£) |
 
 ##### 2. Differentiated User Journey Architecture
-```mermaid
-journey
-    title User Progression Pathway
-    section Foundational Stage
-      Novice： "What is a heat pump?" --> Foundational Literacy： "5-min Essential Primer"
-    section Optimization Stage
-      Active User： "How to set up?" --> Efficiency Engine： "Personalized Settings Advisor"
-    section Mastery Stage
-      Advanced User： "Maximize savings?" --> Cost Convergence System： "Live COP Tracking + AI Optimization"
-```
+<pre> ```mermaid flowchart TD %% Foundational Stage A1["Novice: What is a heat pump?"] --> A2["Foundational Literacy: 5-min Essential Primer"] %% Optimization Stage B1["Active User: How to set up?"] --> B2["Efficiency Engine: Personalized Settings Advisor"] %% Mastery Stage C1["Advanced User: Maximize savings?"] --> C2["Cost Convergence System: Live COP Tracking + AI Optimization"] ``` </pre>
