@@ -72,6 +72,16 @@ Heat Geek (2025): UK User Behaviour Analysis<br>
 - Set up modular sections for future learning content
 
 #### 3.1 Planned Content Structure
+##### I. Search Engine
+Users can search anything they want to know about heat pumps.<br>
+The search bar includes rotating question prompts, such as:<br>
+Describe your question → e.g. Why is my winter electricity bill so high?
+##### II. Quick Help for Common Questions
+A list of the top five most frequently searched user questions, each with a "See Details/Start Troubleshooting" button for quick access to full explanations.
+##### III. Heat Pump Learning Hub
+A card-based display of five modules supporting the Heat Pump Learning Journey,
+designed to address the learning needs of three user types: Novice, Active, and Advanced.<br>
+Each module includes a "Learn/Explore More" button.
 1. Core Knowledge Base: </br>Foundational concepts and how heat pumps work
 2. Efficiency Optimization Guide: </br>Strategies for smarter, more efficient heat pump use
 3. Daily Operation Handbook: </br>Practical usage, safety, maintenance etc. tips
@@ -96,4 +106,9 @@ A1["Novice: What is a heat pump?"] --> A2["Essentials: 5-min Primer"]
 B1["Active User: How to set up?--Optimize settings"] --> B2["Optimization: Personalized Settings Advisor"] 
 C1["Advanced User: Maximize savings"] --> C2["Efficiency: COP Tracking + Optimization advice"]
 D1["Advanced User: Diagnose issues"] --> D2["Troubleshooting: Symptom → Solution Engine"]
+
+style A1 fill:#FFEBB8,stroke:#F59E0B
+style B1 fill:#DCFCE7,stroke:#22C55E
+style C1 fill:#DBEAFE,stroke:#3B82F6
+style D1 fill:#FCE7F3,stroke:#EC4899
 ```
