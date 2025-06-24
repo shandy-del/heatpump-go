@@ -69,5 +69,5 @@ flowchart TD
 A1["Novice: What is a heat pump?"] --> A2["Essentials: 5-min Primer"] 
 B1["Active User: How to set up?--Optimize settings"] --> B2["Optimization: Personalized Settings Advisor"] 
 C1["Advanced User: Maximize savings"] --> C2["Efficiency: COP Tracking + Optimization advice"]
-C1["Advanced User: Diagnose issues"] --> C2["Troubleshooting: Symptom → Solution Engine"]
+D1["Advanced User: Diagnose issues"] --> D2["Troubleshooting: Symptom → Solution Engine"]
 ```
