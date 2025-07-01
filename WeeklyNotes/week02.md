@@ -52,4 +52,4 @@ Next Steps (To do this week)
 See project **heatpump-backend** in VS Code for full implementation details.
 Database tables are designed and managed in DataGrip, under the schema **heatpump**.
 Below is the ER diagram for the `heatpump` database schema:
-![ER Diagram](images/ER diagram.jpg)
+![ER_Diagram](images/ER_diagram.jpg)
