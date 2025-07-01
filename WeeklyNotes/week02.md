@@ -31,7 +31,7 @@ Next Steps (To do this week)
 **goal:** 
 To build an **interactive, visual-first website** that helps users with different levels of understanding learn about heat pumps and improve the efficiency of their home usage. The site follows a **"learning journey"** concept, guiding users through personalized paths to quickly access relevant knowledge.
 
-## 1. Spiral Learning Journey Map
+## 1. Spiral Learning Journey Map UI Design Concept
 - Displays a floating spiral path with distributed knowledge blocks (nodes) along the journey. Spiral and nodes can include soft shadows or float-style animation (via Smart Animate).
 - Users can scroll or drag along the path; clicking a node opens detailed content.
 - Inspiration: Museum-style learning maps + Doodle Jump-like visual mood.
@@ -76,11 +76,11 @@ After a user views a topic, nodes can change color (e.g., dim or glow).
 Displayed below the spiral: ```Progress: 6/12 topics viewed (50%)```<br>
 Encourages full completion of the learning journey.
 
-## 2. Quiz-based Interactive Heat Pump Machine Model
+## 2. Quiz-based Interactive UI Design Concept
 - A 3D interactive model of a heat pump (and optionally, house cross-section).
 - User can zoom in/out, rotate, and click on components to learn their function.
 - Visual interaction inspired by Apple product pages, possibly WebGL or lightweight AR.
-- References: NY Clean Heat Planner: a great example of step-by-step guidance and heat pump matching.
+- References: [NY Clean Heat Planner](https://cleanheat.ny.gov/planner/quiz/?show-all=true) a great example of step-by-step guidance and heat pump matching.
 
 ### 2.1 User Pathways (Homepage Entry)
 On the homepage, users are directed to one of three learning journeys through clear buttons:
@@ -133,14 +133,125 @@ This helps users know where they are and navigate back easily.
 - Smooth scroll and layered page design ensure a fluid experience.
 - All animations and feedback use soft transitions for a pleasant interaction.
 
-## 3. Duduo Bird / Quiz Game Style (Brilliant.org-inspired)
+## 3. Doodle Jump UI Design Concept
 - A gamified step-by-step quiz system where users explore topics through micro challenges and instant feedback.
 - Suitable for guiding users through decision logic (e.g., which heat pump suits you).
+### 3.1 Path Selection (Starting the Journey)
+- The user sees three starting points on the screen (e.g., `Beginner`, `Intermediate`, `Problem Solving`).
+- After selecting one:
+  - The corresponding path and all its linked knowledge nodes are highlighted.
+  - All other paths fade out or reduce opacity to reduce distraction.
+  - The user can scroll vertically to view the full path and nodes.
 
-## 4. Realistic Community Map Interface
-- A map view showing the city of Bristol, with clickable houses representing different home types.
-- Designed to feel like a local guide; paths from city center lead to various household profiles.
-- Users choose home type visually, then proceed to customization and learning.
+### 3.2 Node Interaction
+- Users navigate the spiral path by:
+  - Scrolling vertically;
+  - Or using keyboard keys: `↑ ↓` to control character jumps.
+- When the user’s avatar lands on a knowledge node:
+  - The node brightens and enlarges;
+  - A floating info card overlay appears with brief knowledge content:
+
+    ```
+    ┌────────────────────┐
+    │ Why Heat Pump?     │
+    │ - Brief summary    │
+    │ [Read More]        │
+    └────────────────────┘
+    ```
+
+- Clicking a node performs either:
+  - Open Overlay (showing full knowledge card);
+  - Or Navigate to Frame (to a new detail page).
+
+### 3.3 Movement Mechanics
+
+- Keyboard controls:
+  - `←` and `→`: Move the avatar left/right;
+  - `↑` or `Space`: Jump to platforms (nodes).
+- The avatar:
+  - Snaps to the closest valid platform;
+  - Or jumps directly to a node when it's clicked.
+- The currently active node is visually marked (e.g., glow or pulse effect).
+
+### 3.4 Visual & Interactive Features
+
+| Feature                  | Description                                                   |
+|--------------------------|---------------------------------------------------------------|
+| Node States              | Default, Hovered, Completed (✔), Recommended (★), Current     |
+| Visual Path Variations   | Vertical depth or parallax layers for visual clarity          |
+| Zoom Support             | Scroll or pinch to zoom in/out of the knowledge map           |
+| Read Progress Tracking   | Completed nodes marked with checkmarks                        |
+| Branching Paths          | Use curves, arrows, or gradients to show learning flow        |
+| Hover Cards              | Info card appears on hover or jump landing                    |
+
+### 3.5 Optional Add-ons
+
+- Mini Map on top-right corner for full route overview and quick jump.
+- Filter toggle: Show only unread / starred / all topics.
+- Search bar: Jump directly to a node by keyword.
+- Micro-achievement system: After completing sections, popups reward progress.
+
+### 3.6 Final User Experience Goal
+Learners can explore freely, jump through stages, and interact with knowledge nodes like playing a platformer game — making the learning process engaging and personalized.
+
+## 4.Knowledge Bubbles UI Design Concept
+
+### 4.1 Core Concept
+- The page features floating circular “knowledge bubbles,” each representing a knowledge point.
+- All bubbles start at the same size. Each time a user clicks, searches, or visits a topic, the corresponding bubble grows larger.
+- Combines the visual language of a word cloud and interactive learning path.
+
+### 4.2 Page Structure
+1. **Background & Layout**
+   - Use a neutral gradient background to make colorful bubbles stand out.
+   - Randomly distribute bubbles across the canvas (use Auto Layout with Wrap to simulate bubble dispersion).
+   - Support vertical or free scrolling for exploring more bubbles (horizontal + vertical scrollable canvas).
+2. **Knowledge Bubble (Each Knowledge Node)**<br>
+
+| Property | Description |
+| - | - |
+| **Label** | Title of the knowledge topic |
+| **Size**  | Default 48px; grows to 64px after visit; up to 96px after repeated interaction |
+| **Color** | Highlighted colors for recommended topics; default colors (blue/purple) for others |
+| **Border** | Read bubbles can be outlined or have reduced opacity |
+| **Hover/Click** | Show tooltip with title + summary + "Read More" action |
+
+3. **Top Bar: Search + Filters**
+- Keyword search bar allows users to highlight or filter bubbles.
+- Optional filter tags:
+  - `All` / `Unread` / `Favorite`
+
+### 4.3 Interaction Logic
+1. **Initial State**
+   - All bubbles are equally sized and randomly positioned.
+   - Hovering reveals a tooltip/preview card.
+   - Clicking opens a detailed page or floating content panel.
+   - Bubble status is recorded as “read”; it grows in size and becomes more visually emphasized (color or border).
+
+2. **Search Interaction**
+   - When users enter a keyword:
+   - Matching bubbles grow or highlight.
+      - Non-matc hing bubbles fade out (lower opacity).
+
+3. **Behavior Feedback**
+   - Each click is logged using `localStorage` to simulate a persistent learning journey.
+   - Users see visual feedback of progress without needing to sign in.
+   - Bubble size reflects learning interest and engagement.
+
+### 4.4 Visual Inspirations
+
+| Source | Feature |
+|--------|---------|
+| Google Trends / Word Cloud | Bubble size reflects interaction frequency |
+| Genially / Miro | Floating, interactive learning flow |
+| Bubble Charts | Data-driven expression of user behavior & knowledge |
+
+### 4.5 Additional Features
+- **Mini Map Navigation**: If the canvas contains many bubbles, add a minimap in the bottom-right corner.
+- **Animated Appearance**: On page load, bubbles can gently pulse and float using Smart Animate to simulate a fluid environment.
+- **Learning Level Views**:
+  - `Novice View`: Shows only beginner topics.
+  - `Advanced View`: Reveals the full set of topics.
 
 
 
