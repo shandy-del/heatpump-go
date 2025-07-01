@@ -194,7 +194,7 @@ This helps users know where they are and navigate back easily.
 ### 3.6 Final User Experience Goal
 Learners can explore freely, jump through stages, and interact with knowledge nodes like playing a platformer game — making the learning process engaging and personalized.
 
-## 4.Knowledge Bubbles UI Design Concept
+## 4. Knowledge Bubbles UI Design Concept
 
 ### 4.1 Core Concept
 - The page features floating circular “knowledge bubbles,” each representing a knowledge point.
@@ -253,7 +253,7 @@ Learners can explore freely, jump through stages, and interact with knowledge no
   - `Novice View`: Shows only beginner topics.
   - `Advanced View`: Reveals the full set of topics.
 
-
+<br>
 
 # Database structure and Backend Development
 See project **heatpump-backend** in VS Code for full implementation details.
