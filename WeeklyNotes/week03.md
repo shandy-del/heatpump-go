@@ -6,7 +6,14 @@
 [View 4 Prototypes on Figma](https://www.figma.com/design/FYXBRrEyK2Uux0yu9Oj5cN/Heatpump-01?node-id=46-331&t=7TpZ9SOAYtvYOPCr-1)
 
 # Preparation for user study
-## I. User Evaluation Survey: HeatPumpGo Prototypes
+## I. Use Evaluation tools: Qualitative / Quantitative Evaluation 
+1. Qualitative
+- Heuristic Evaluation
+- Think-Aloud Protocol
+2. Quantitative
+- SUS (System Usability Scale)
+- NASA-TLX
+## II. User Evaluation Survey: HeatPumpGo Prototypes
 ### Part 1: Satisfaction Rating (1–5 Likert Scale)
 (1 = Strongly Disagree / 5 = Strongly Agree)
 
@@ -49,10 +56,3 @@ Please answer in your own words:
 2. Was there any prototype where you felt confused or lost? What happened?
 3. Is there anything you'd like to add or improve in any of the prototypes?
 
-## II. Use Evaluation tools: Qualitative / Quantitative Evaluation 
-1. Qualitative
-- Heuristic Evaluation
-- Think-Aloud Protocol
-2. Quantitative
-- SUS (System Usability Scale)
-- NASA-TLX
