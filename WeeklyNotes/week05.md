@@ -55,3 +55,16 @@ Evaluate how well the AI answers questions and verify that basic chat works as e
 
 ### 3.4 Integrate the model
 Deploy the model for backend API use.
+
+## 4. Future Enhancements (Lower Priority)
+### 4.1 Add user identity dropdown in search bar and track search behavior
+Let users select their identity (e.g., beginner, expert) before searching, and collect anonymous statistics to improve content recommendations.
+
+### 4.2 Dynamically update and highlight popular knowledge blocks
+Adjust the homepage display of knowledge blocks based on what users search for most.
+
+### 4.3 Implement responsive UI design for multiple devices
+Make sure the website looks and works well on phones, tablets, and different screen sizes.
+
+<!-- ### 4.4 Develop user feedback collection and analysis
+Provide a way for users to submit feedback to help improve the system continuously.-->
