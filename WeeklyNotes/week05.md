@@ -2,6 +2,7 @@
 1. [Frontend Development Tasks](#1-frontend-development-tasks)
 2. [Backend Development Tasks](#2-backend-development-tasks)
 3. [AI Chatbot Development Tasks](#3-ai-chatbot-development-tasks)
+4. [Future Enhancements (Lower Priority)](#4-future-enhancements-lower-priority)
 ## 1. Frontend Development Tasks
 ### 1.1 Design and build the main page knowledge modules area
 Show different knowledge blocks on the homepage, clearly grouped by user type (e.g., beginners, heat pump users, troubleshooting, government support), so users can quickly find what interests them.
